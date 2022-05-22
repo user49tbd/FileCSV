@@ -1,0 +1,16 @@
+package P1;
+
+import java.io.IOException;
+
+public class classA1 {
+	public static void main(String[]args) {
+		classA2 tbd = new classA2();
+		String dir =  "C:\\TEMP";
+		String name = "generic_food.csv";
+		try {
+			tbd.altt(dir,name);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
